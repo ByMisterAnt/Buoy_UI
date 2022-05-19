@@ -2,7 +2,7 @@
 #include <QtWidgets/QApplication>
 #include <QtQuick/QQuickView>
 //switch when build portable version
-#include <QtStudio3D/qstudio3dglobal.h>
+// //#include <QtStudio3D/qstudio3dglobal.h>
 //#include <qstudio3dglobal.h>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -11,13 +11,13 @@
 
 int main(int argc, char *argv[])
 {
-    qputenv("QSG_INFO", "1");
+   // qputenv("QSG_INFO", "1");
 
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QApplication app(argc, argv);
 
-    QSurfaceFormat::setDefaultFormat(Q3DS::surfaceFormat());
+    //QSurfaceFormat::setDefaultFormat(Q3DS::surfaceFormat());
 
     QQmlApplicationEngine engine;
 

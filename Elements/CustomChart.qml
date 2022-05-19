@@ -1,6 +1,6 @@
-import QtQuick 2.15
-import QtCharts 2.15
-import QtGraphicalEffects 1.13
+import QtQuick 2.12
+import QtCharts 2.12
+import QtGraphicalEffects 1.0
 
 Item
 {

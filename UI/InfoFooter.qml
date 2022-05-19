@@ -1,6 +1,6 @@
-import QtQuick 2.15
+import QtQuick 2.12
 import QtQuick.Controls 1.4
-import QtGraphicalEffects 1.13
+import QtGraphicalEffects 1.12
 
 import "../Elements"
 

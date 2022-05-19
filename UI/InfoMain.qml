@@ -1,6 +1,6 @@
 import QtQuick 2.15
-import QtQuick.Controls 1.4
-import QtGraphicalEffects 1.13
+import QtQuick.Controls 2.0
+import QtGraphicalEffects 1.0
 
 import "../Elements"
 
@@ -15,16 +15,16 @@ Item
         padding: 10
         spacing: 10
 
-        CustomChart
+        /*CustomChart
         {
             id: heightChart
             width: parent.width * 2 / 3 - 15
             height: parent.height
 
             chartColor: "red"
-        }
+        }*/
 
-        Custom3dStudio
+        /*Custom3dStudio
         {
             id: buoy_view
 
@@ -48,7 +48,7 @@ Item
                     }
                 }
             }
-        }
+        }*/
     }
 
     function add_value(value)

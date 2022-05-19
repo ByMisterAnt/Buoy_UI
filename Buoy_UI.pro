@@ -1,5 +1,5 @@
-QT += quick charts qml
-QT += studio3d
+QT += quick qml charts
+#QT += 3dstudioruntime2
 QT += serialport
 
 CONFIG += c++11
