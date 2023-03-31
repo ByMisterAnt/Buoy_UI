@@ -92,7 +92,7 @@ Window
         footer.air_temperature = a[2];
         main.add_value(a[3]);
         } catch (error) {
-            console.log(error);
+            1+1;//console.log(error);
         }
 
     }
