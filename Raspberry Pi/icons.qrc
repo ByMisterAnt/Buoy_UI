@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>buoy_icons/buoy.png</file>
+        <file>buoy_icons/sea.png</file>
+        <file>buoy_icons/wind.png</file>
+        <file>buoy_icons/humidity.png</file>
+        <file>buoy_icons/mai.png</file>
+        <file>buoy_icons/buoyimg.png</file>
+        <file>buoy_icons/imgbuy.png</file>
+    </qresource>
+</RCC>

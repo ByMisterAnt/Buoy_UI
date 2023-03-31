@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Elements/CustomChart.qml</file>
+        <file>UI/InfoHeader.qml</file>
+        <file>UI/InfoFooter.qml</file>
+        <file>UI/InfoMain.qml</file>
+        <file>Elements/InfoPanel.qml</file>
+        <file>Elements/InfoTemp.qml</file>
+    </qresource>
+</RCC>
