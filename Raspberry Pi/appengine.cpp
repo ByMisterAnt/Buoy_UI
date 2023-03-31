@@ -40,32 +40,15 @@ void appengine::readData()
         message = serialPort.readLine();
     }
 
-    //message.replace(",", " ");
+    
 
     //std::string msg = message.toStdString();
 
     //std::sscanf(msg.c_str(), "%f,%f,%f,%f\n", &humidity, &water_temperature, &air_temperature, &wave_height);
  data = message;
  data.replace(",", " ");
+ //data = {static_cast<double>(humidity), static_cast<double>(water_temperature),static_cast<double>(air_temperature),static_cast<double>(wave_height)};
 
-
-    // -------------------удалить область, если заработает -------
-
-    humidity = 91.0;
-    water_temperature = 2.344;
-    air_temperature = 22.45;
-    wave_height = 4.5;
-
-    //-------------------------------------------------------------
-    //data = {static_cast<double>(humidity), static_cast<double>(water_temperature),static_cast<double>(air_temperature),static_cast<double>(wave_height)};
-//qDebug() << "dd";//data[1];
-//qDebug() << msg.c_str();
-//qDebug() << data;
-/*qDebug() << humidity;
-qDebug() << water_temperature;
-qDebug() << air_temperature;
-qDebug() << wave_height;*/
-data = "27.0 1.0 3.0 44.0";
 }
 
 QString appengine::getData()
